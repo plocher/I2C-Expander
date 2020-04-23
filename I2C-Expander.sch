@@ -9866,6 +9866,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="IC2" library="SPCoast" deviceset="PCA9555" device="D"/>
 <part name="P+25" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="SPCoast" deviceset="GND" device=""/>
+<part name="R23" library="SPCoast" deviceset="R*" device="0603-RES" value="2K2"/>
+<part name="LED17" library="SPCoast" deviceset="LED*" device="0603-LED" value="GREEN"/>
 </parts>
 <sheets>
 <sheet>
@@ -9982,6 +9984,11 @@ MCP23017</text>
 <attribute name="VALUE" x="48.26" y="144.78" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND2" gate="1" x="43.18" y="88.9"/>
+<instance part="R23" gate="R" x="106.68" y="12.7" smashed="yes" rot="MR270">
+<attribute name="NAME" x="107.95" y="19.8374" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="109.982" y="16.51" size="1.016" layer="96" rot="MR270"/>
+</instance>
+<instance part="LED17" gate="LED" x="106.68" y="22.86"/>
 </instances>
 <busses>
 </busses>
@@ -10295,8 +10302,7 @@ MCP23017</text>
 <net name="VCC" class="1">
 <segment>
 <wire x1="76.2" y1="15.24" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="27.94" x2="67.31" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="27.94" x2="67.31" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
 <junction x="76.2" y="27.94"/>
 <junction x="67.31" y="27.94"/>
@@ -10311,6 +10317,9 @@ MCP23017</text>
 <pinref part="C4" gate="C1" pin="+"/>
 <wire x1="83.82" y1="15.24" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <junction x="83.82" y="27.94"/>
+<pinref part="LED17" gate="LED" pin="A"/>
+<wire x1="93.98" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<junction x="93.98" y="27.94"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="175.26" x2="63.5" y2="177.8" width="0.1524" layer="91"/>
@@ -10569,6 +10578,18 @@ MCP23017</text>
 <wire x1="15.24" y1="142.24" x2="17.78" y2="142.24" width="0.1524" layer="91"/>
 <label x="15.24" y="142.24" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 <pinref part="IC2" gate="G$1" pin="!INT"/>
+</segment>
+<segment>
+<pinref part="R23" gate="R" pin="2"/>
+<wire x1="106.68" y1="7.62" x2="106.68" y2="5.08" width="0.1524" layer="91"/>
+<label x="106.68" y="5.08" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="LED17" gate="LED" pin="C"/>
+<pinref part="R23" gate="R" pin="1"/>
+<wire x1="106.68" y1="20.32" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
