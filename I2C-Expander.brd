@@ -6,19 +6,19 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="17" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -37,12 +37,12 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="16" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="57" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -55,7 +55,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Hidden" color="57" fill="4" visible="no" active="yes"/>
+<layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -161,7 +161,7 @@
 <text x="72.39" y="92.71" size="2.1844" layer="21" font="vector" ratio="10">v1.0</text>
 <text x="72.39" y="96.52" size="2.1844" layer="21" font="vector" ratio="10">2020-04</text>
 <text x="97.79" y="46.99" size="2.1844" layer="21" font="vector" ratio="15" rot="R90">&gt;DRAWING_NAME </text>
-<text x="36.195" y="78.994" size="1.016" layer="21" font="vector" ratio="10">2020-04</text>
+<text x="56.515" y="84.074" size="1.016" layer="21" font="vector" ratio="10">2020-04</text>
 <text x="94.488" y="87.249" size="1.27" layer="21" font="vector" ratio="10">v1.0</text>
 <text x="90.17" y="32.766" size="1.27" layer="21">1</text>
 <text x="86.487" y="32.766" size="1.27" layer="21">2</text>
@@ -187,12 +187,12 @@
 <text x="63.5" y="17.145" size="1.778" layer="21" font="vector" ratio="10">0</text>
 <text x="63.5" y="24.765" size="1.778" layer="21" font="vector" ratio="10">1</text>
 <text x="67.818" y="13.208" size="1.778" layer="21" font="vector" ratio="10" rot="R90">nc</text>
-<text x="33.655" y="81.534" size="1.016" layer="21" font="vector" ratio="10">John Plocher</text>
-<text x="79.375" y="71.374" size="1.016" layer="21" font="vector" ratio="10">Hardware</text>
+<text x="55.245" y="86.614" size="1.016" layer="21" font="vector" ratio="10">John Plocher</text>
+<text x="79.375" y="78.994" size="1.016" layer="21" font="vector" ratio="10">Hardware</text>
 <text x="106.045" y="26.67" size="1.016" layer="47" font="vector" ratio="10" rot="R90">"</text>
 <text x="51.435" y="96.774" size="1.778" layer="21" font="vector" ratio="10">John Plocher</text>
-<text x="78.105" y="77.724" size="1.016" layer="21" font="vector" ratio="10">Open Source</text>
-<text x="56.515" y="80.264" size="1.016" layer="21" font="vector" ratio="10">16 bit I2C
+<text x="78.105" y="85.344" size="1.016" layer="21" font="vector" ratio="10">Open Source</text>
+<text x="78.105" y="70.104" size="1.016" layer="21" font="vector" ratio="10">16 bit I2C
 Digital I/O
 Active Low</text>
 <text x="43.053" y="23.876" size="1.016" layer="21" rot="SR0">B1: 0  0  1   0x21</text>
@@ -235,7 +235,7 @@ Active Low</text>
 <wire x1="86.884" y1="8.763" x2="98.06" y2="27.305" width="2.54" layer="52"/>
 <wire x1="97.679" y1="8.001" x2="101.362" y2="13.081" width="2.54" layer="52"/>
 <wire x1="101.87" y1="19.431" x2="0.016" y2="82.169" width="1.778" layer="52"/>
-<text x="98.425" y="70.485" size="1.27" layer="21" font="vector" ratio="13" rot="R90">PCA9555 D -or-
+<text x="46.355" y="84.455" size="1.016" layer="21" font="vector" ratio="13" rot="R180">PCA9555 D -or-
 MCP23017 SO</text>
 <text x="42.545" y="92.075" size="1.27" layer="21" font="vector" ratio="13">PCA9555 D -or-
 MCP23017 SO</text>
@@ -681,6 +681,36 @@ Source: DCJ0202.pdf</description>
 <wire x1="1.4476" y1="-0.729" x2="-1.3968" y2="-0.729" width="0.0508" layer="39"/>
 <wire x1="-1.3968" y1="-0.729" x2="-1.3968" y2="0.7544" width="0.0508" layer="39"/>
 </package>
+<package name="IOB-IO4-NOBOTSILK">
+<wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="20.32" x2="0" y2="16.637" width="0.127" layer="48" style="shortdash"/>
+<pad name="V5" x="12.319" y="18.288" drill="0.9" shape="square"/>
+<pad name="VOUT" x="9.779" y="18.034" drill="0.9"/>
+<pad name="V+" x="7.239" y="18.288" drill="0.9"/>
+<pad name="P1" x="44.958" y="12.446" drill="0.9"/>
+<pad name="P2" x="45.212" y="9.906" drill="0.9"/>
+<pad name="P3" x="44.958" y="7.366" drill="0.9"/>
+<pad name="P4" x="45.212" y="4.826" drill="0.9"/>
+<pad name="V5@1" x="45.212" y="14.986" drill="0.9" shape="square"/>
+<pad name="G@3" x="44.958" y="2.286" drill="0.9"/>
+<circle x="15.875" y="1.397" radius="0.127" width="0.0254" layer="48"/>
+<circle x="51.435" y="18.415" radius="0.127" width="0.0254" layer="48"/>
+<wire x1="0" y1="16.637" x2="0" y2="1.143" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="1.143" x2="0" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="16.637" x2="12.954" y2="16.637" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="16.637" x2="12.954" y2="1.143" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="1.143" x2="0" y2="1.143" width="0.0254" layer="48"/>
+<text x="17.653" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">5v</text>
+<text x="5.207" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">VIN</text>
+<text x="42.799" y="12.065" size="1.27" layer="21" font="vector" rot="R90">1</text>
+<text x="42.799" y="9.525" size="1.27" layer="21" font="vector" rot="R90">2</text>
+<text x="42.799" y="6.985" size="1.27" layer="21" font="vector" rot="R90">3</text>
+<text x="42.799" y="4.445" size="1.27" layer="21" font="vector" rot="R90">4</text>
+<text x="42.799" y="14.605" size="1.27" layer="21" font="vector" rot="R90">5v</text>
+<text x="44.196" y="2.794" size="1.27" layer="21" font="vector" rot="R180">Gnd</text>
+</package>
 <package name="IO4-IOB">
 <wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
@@ -721,7 +751,7 @@ Source: DCJ0202.pdf</description>
 <wire x1="50.038" y1="1.27" x2="51.943" y2="1.27" width="2.1844" layer="22"/>
 <text x="38.227" y="18.288" size="1.27" layer="22" font="vector" rot="MR0">IOB to IO4 Interface</text>
 <text x="39.751" y="0.508" size="1.016" layer="22" font="vector" rot="MR0">Made in the PCR, Coast Div, NMRA</text>
-<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is   Fun!</text>
+<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is Fun!</text>
 <wire x1="43.053" y1="19.05" x2="43.053" y2="1.27" width="1.27" layer="22"/>
 </package>
 <package name="POWER-R2">
@@ -1129,9 +1159,13 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="BOARD1" library="SPCoast" package="BOARD-DINRAIL-3.17IN-IOB" value="BOARD80X100-IOB" x="0" y="0" smashed="yes"/>
-<element name="FID1" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="8.763" y="92.456" smashed="yes"/>
-<element name="FID2" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.79" y="5.461" smashed="yes"/>
-<element name="OSHW1" library="SPCoast" package="OSHW-LOGO-M" value="DOC-OSHW-LOGO-M" x="82.55" y="74.93" smashed="yes"/>
+<element name="FID-UL" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="8.763" y="92.456" smashed="yes">
+<attribute name="NAME" x="1.524" y="94.488" size="1.016" layer="25" rot="R90"/>
+</element>
+<element name="FID-LR" library="SPCoast" package="FIDUCIAL_1MM" value="FIDUCIAL" x="97.79" y="5.461" smashed="yes">
+<attribute name="NAME" x="94.615" y="0.381" size="1.016" layer="25"/>
+</element>
+<element name="OSHW1" library="SPCoast" package="OSHW-LOGO-M" value="DOC-OSHW-LOGO-M" x="82.55" y="82.55" smashed="yes"/>
 <element name="IC1" library="SPCoast" package="SO28W" value="MCP23017SO" x="50.038" y="57.15" smashed="yes" rot="R270">
 <attribute name="MF" value="MICROCHIP" x="50.038" y="57.15" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 <attribute name="MPN" value="MCP23017-E/SO" x="50.038" y="57.15" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
@@ -1254,10 +1288,10 @@ design rules under a new name.
 <attribute name="NAME" x="74.7395" y="35.433" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="73.406" y="36.957" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U$1" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBBARE" x="73.66" y="90.17" smashed="yes" rot="R270"/>
-<element name="U$2" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBBARE" x="52.07" y="90.17" smashed="yes" rot="R270"/>
-<element name="U$3" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBBARE" x="30.48" y="90.17" smashed="yes" rot="R270"/>
-<element name="U$4" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBBARE" x="8.89" y="90.17" smashed="yes" rot="R270"/>
+<element name="U$1" library="SPCoast" package="IOB-IO4-NOBOTSILK" value="CONNECTOR-IO4-IOBNOBSILK" x="73.66" y="90.17" smashed="yes" rot="R270"/>
+<element name="U$2" library="SPCoast" package="IOB-IO4-NOBOTSILK" value="CONNECTOR-IO4-IOBNOBSILK" x="52.07" y="90.17" smashed="yes" rot="R270"/>
+<element name="U$3" library="SPCoast" package="IOB-IO4-NOBOTSILK" value="CONNECTOR-IO4-IOBNOBSILK" x="30.48" y="90.17" smashed="yes" rot="R270"/>
+<element name="U$4" library="SPCoast" package="IO4-IOB" value="CONNECTOR-IO4-IOBFULL" x="8.89" y="90.17" smashed="yes" rot="R270"/>
 <element name="LED8" library="SPCoast" package="0603-LED" value="Y" x="67.31" y="34.29" smashed="yes" rot="R90">
 <attribute name="VALUE" x="73.152" y="34.036" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>

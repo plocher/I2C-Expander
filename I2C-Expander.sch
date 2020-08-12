@@ -8,20 +8,20 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="23" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="29" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="19" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="17" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="34" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="56" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="23" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="29" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="34" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,13 +39,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="16" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="57" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="24" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="57" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -56,16 +56,16 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Hidden" color="57" fill="4" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="102" name="Changes" color="13" fill="1" visible="no" active="no"/>
@@ -2653,7 +2653,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="50.038" y1="1.27" x2="51.943" y2="1.27" width="2.1844" layer="22"/>
 <text x="38.227" y="18.288" size="1.27" layer="22" font="vector" rot="MR0">IOB to IO4 Interface</text>
 <text x="39.751" y="0.508" size="1.016" layer="22" font="vector" rot="MR0">Made in the PCR, Coast Div, NMRA</text>
-<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is   Fun!</text>
+<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is Fun!</text>
 <wire x1="43.053" y1="19.05" x2="43.053" y2="1.27" width="1.27" layer="22"/>
 </package>
 <package name="0201-CAP">
@@ -3267,36 +3267,6 @@ Layout for IOB I2C cards</text>
 <rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
 <rectangle x1="-3.0266" y1="2.2828" x2="-2.8234" y2="3.121" layer="51"/>
 <rectangle x1="-3.6766" y1="2.2828" x2="-3.4734" y2="3.121" layer="51"/>
-</package>
-<package name="IOB-IO4-CLEAN">
-<wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
-<wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
-<wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
-<wire x1="0" y1="20.32" x2="0" y2="16.637" width="0.127" layer="48" style="shortdash"/>
-<pad name="V5" x="12.319" y="18.288" drill="0.9" shape="square"/>
-<pad name="VOUT" x="9.779" y="18.034" drill="0.9"/>
-<pad name="V+" x="7.239" y="18.288" drill="0.9"/>
-<pad name="P1" x="44.958" y="12.446" drill="0.9"/>
-<pad name="P2" x="45.212" y="9.906" drill="0.9"/>
-<pad name="P3" x="44.958" y="7.366" drill="0.9"/>
-<pad name="P4" x="45.212" y="4.826" drill="0.9"/>
-<pad name="V5@1" x="45.212" y="14.986" drill="0.9" shape="square"/>
-<pad name="G@3" x="44.958" y="2.286" drill="0.9"/>
-<circle x="15.875" y="1.397" radius="0.127" width="0.0254" layer="48"/>
-<circle x="51.435" y="18.415" radius="0.127" width="0.0254" layer="48"/>
-<wire x1="0" y1="16.637" x2="0" y2="1.143" width="0.127" layer="48" style="shortdash"/>
-<wire x1="0" y1="1.143" x2="0" y2="0" width="0.127" layer="48" style="shortdash"/>
-<wire x1="0" y1="16.637" x2="12.954" y2="16.637" width="0.0254" layer="48"/>
-<wire x1="12.954" y1="16.637" x2="12.954" y2="1.143" width="0.0254" layer="48"/>
-<wire x1="12.954" y1="1.143" x2="0" y2="1.143" width="0.0254" layer="48"/>
-<text x="17.653" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">5v</text>
-<text x="5.207" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">VIN</text>
-<text x="42.799" y="12.065" size="1.27" layer="21" font="vector" rot="R90">1</text>
-<text x="42.799" y="9.525" size="1.27" layer="21" font="vector" rot="R90">2</text>
-<text x="42.799" y="6.985" size="1.27" layer="21" font="vector" rot="R90">3</text>
-<text x="42.799" y="4.445" size="1.27" layer="21" font="vector" rot="R90">4</text>
-<text x="42.799" y="14.605" size="1.27" layer="21" font="vector" rot="R90">5v</text>
-<text x="44.196" y="2.794" size="1.27" layer="21" font="vector" rot="R180">Gnd</text>
 </package>
 <package name="SO28W">
 <description>&lt;B&gt;28-Lead Plastic Small Outline (SO) &lt;/B&gt; Wide, 300 mil Body (SOIC)&lt;/B&gt;&lt;p&gt;
@@ -4469,6 +4439,36 @@ grid 2.54 mm, diameter 6 mm</description>
 <smd name="1" x="1" y="-0.95" dx="0.8" dy="0.9" layer="1" rot="R90"/>
 <text x="-0.8255" y="1.778" size="0.8128" layer="25">&gt;NAME</text>
 <text x="0.1905" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="IOB-IO4-NOBOTSILK">
+<wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="20.32" x2="0" y2="16.637" width="0.127" layer="48" style="shortdash"/>
+<pad name="V5" x="12.319" y="18.288" drill="0.9" shape="square"/>
+<pad name="VOUT" x="9.779" y="18.034" drill="0.9"/>
+<pad name="V+" x="7.239" y="18.288" drill="0.9"/>
+<pad name="P1" x="44.958" y="12.446" drill="0.9"/>
+<pad name="P2" x="45.212" y="9.906" drill="0.9"/>
+<pad name="P3" x="44.958" y="7.366" drill="0.9"/>
+<pad name="P4" x="45.212" y="4.826" drill="0.9"/>
+<pad name="V5@1" x="45.212" y="14.986" drill="0.9" shape="square"/>
+<pad name="G@3" x="44.958" y="2.286" drill="0.9"/>
+<circle x="15.875" y="1.397" radius="0.127" width="0.0254" layer="48"/>
+<circle x="51.435" y="18.415" radius="0.127" width="0.0254" layer="48"/>
+<wire x1="0" y1="16.637" x2="0" y2="1.143" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="1.143" x2="0" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="16.637" x2="12.954" y2="16.637" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="16.637" x2="12.954" y2="1.143" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="1.143" x2="0" y2="1.143" width="0.0254" layer="48"/>
+<text x="17.653" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">5v</text>
+<text x="5.207" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">VIN</text>
+<text x="42.799" y="12.065" size="1.27" layer="21" font="vector" rot="R90">1</text>
+<text x="42.799" y="9.525" size="1.27" layer="21" font="vector" rot="R90">2</text>
+<text x="42.799" y="6.985" size="1.27" layer="21" font="vector" rot="R90">3</text>
+<text x="42.799" y="4.445" size="1.27" layer="21" font="vector" rot="R90">4</text>
+<text x="42.799" y="14.605" size="1.27" layer="21" font="vector" rot="R90">5v</text>
+<text x="44.196" y="2.794" size="1.27" layer="21" font="vector" rot="R180">Gnd</text>
 </package>
 </packages>
 <symbols>
@@ -9399,7 +9399,7 @@ LM1117 uses GOI pinout</description>
 <gate name="IOB" symbol="IO4-IOB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="BARE" package="IO4-IOB">
+<device name="FULL" package="IO4-IOB">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -9414,7 +9414,7 @@ LM1117 uses GOI pinout</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="CLEAN" package="IOB-IO4-CLEAN">
+<device name="NOBSILK" package="IOB-IO4-NOBOTSILK">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -9922,8 +9922,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="OSHW1" library="SPCoast" deviceset="DOC-OSHW-LOGO-" device="M"/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100-IOB" value="BOARD80X100-IOB"/>
-<part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-LR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-UL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="IC1" library="SPCoast" deviceset="MCP23017" device="SO"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
 <part name="CON2" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
@@ -9978,10 +9978,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+9V" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="U$1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE" value="CONNECTOR-IO4-IOBBARE"/>
-<part name="U$2" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE" value="CONNECTOR-IO4-IOBBARE"/>
-<part name="U$3" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE" value="CONNECTOR-IO4-IOBBARE"/>
-<part name="U$4" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE" value="CONNECTOR-IO4-IOBBARE"/>
+<part name="U$1" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="NOBSILK" value="CONNECTOR-IO4-IOBNOBSILK"/>
+<part name="U$2" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="NOBSILK" value="CONNECTOR-IO4-IOBNOBSILK"/>
+<part name="U$3" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="NOBSILK" value="CONNECTOR-IO4-IOBNOBSILK"/>
+<part name="U$4" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="FULL" value="CONNECTOR-IO4-IOBFULL"/>
 <part name="SUPPLY3" library="supply2" deviceset="+9V" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="+9V" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="+9V" device=""/>
@@ -10077,8 +10077,8 @@ MCP23017</text>
 <instance part="FRAME1" gate="FRAME_CONTENT" x="147.32" y="0"/>
 <instance part="OSHW1" gate="DOC-OSHW-LOGO" x="233.68" y="38.1"/>
 <instance part="BOARD1" gate="B" x="210.82" y="33.02"/>
-<instance part="FID2" gate="FID1" x="132.08" y="7.62"/>
-<instance part="FID1" gate="FID1" x="132.08" y="15.24"/>
+<instance part="FID-LR" gate="FID1" x="132.08" y="7.62"/>
+<instance part="FID-UL" gate="FID1" x="132.08" y="15.24"/>
 <instance part="IC1" gate="G$1" x="121.92" y="121.92"/>
 <instance part="CON1" gate="I2C" x="17.78" y="170.18"/>
 <instance part="CON2" gate="I2C" x="35.56" y="170.18"/>
